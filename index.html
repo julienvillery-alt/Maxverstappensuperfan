@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Max Verstappen</title>
+  </head>
+  <body>
+    <div class="column black center-content">
+      <img class="image1" id="img1" />
+    </div>
+
+    <div class="mid-column black">
+      <div class="mid-row black center-content myfont">Max Verstappen #1</div>
+      <div class="mid-row black">
+        <div class="box1 black">
+          <img src="images/rb21.jpg" class="mv1box" onclick="playsound()" />
+        </div>
+        <div class="box black">
+          <img src="images/podium.jpg" />
+        </div>
+      </div>
+      <div class="mid-row black">
+        <div class="box1 black">
+          <img src="images/gt3.jpg" class="mv1box" onclick="gt31()" />
+        </div>
+        <div class="box black">
+          <img src="images/helmet.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="column black center-content">
+      <img class="image2" id="img2" />
+    </div>
+
+    <!-- this is an audio file you can play using JavaScript -->
+
+    <audio src="sounds/byehonda.mp3" id="engine"></audio>
+    <audio src="sounds/mv1-1.mp3" id="mvsound"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
